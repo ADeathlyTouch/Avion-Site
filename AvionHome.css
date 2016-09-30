@@ -1,0 +1,49 @@
+﻿@import 'https://fonts.googleapis.com/css?family=Euphoria+Script';
+
+body {
+    z-index:-1;
+    background-color: #aaaaaa;
+}
+#Header-Text {
+   font-family: 'Euphoria Script', cursive;
+   color: rgb(211, 211, 211);
+   text-shadow: 2px 3px 4px rgba(17, 24, 152, 0.81);
+   font-size: 70px;
+}
+#Header-Text-p {
+   font-family: 'Euphoria Script', cursive;
+   color: rgb(211, 211, 211);
+   text-shadow: 2px 3px 4px rgba(17, 24, 152, 0.81);
+   font-size: 35px;
+}
+#Header-Box {
+    border-bottom: 1px solid #686868;
+    background-image: url(Assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-text-stroke: thin;
+    background-position-y: bottom;
+    z-index: 0;
+}
+#Main-Body {
+    margin-top: -60px !important;
+
+    background-color: #cecece;
+
+    -webkit-text-stroke: thin;
+    font-weight: 500;
+
+    border-left: 1px solid #686868;
+    border-right: 1px solid #686868;
+    border-top: 1px solid #686868;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#Nav-Tabs a {
+   text-decoration: none;
+   font-family: 'Bodoni MT';
+   color: #000000;
+}
+#Nav-Tabs a:hover{
+    color: #373737;
+}
